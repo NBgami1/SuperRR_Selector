@@ -1,0 +1,3 @@
+Scenario,Original_Top10,Alternative_Top10,Common_Players,Top10_Overlap_Percent,Spearman_Rank_Correlation
+Balanced,10,10,10,100,0.9991877717952216
+Performance_Focused,10,10,10,100,0.9873348936959252

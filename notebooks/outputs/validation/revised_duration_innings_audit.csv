@@ -1,0 +1,43 @@
+match_id,innings,actual_legal_balls,unknown_deliveries,first_inn_revised_overs,second_inn_revised_overs,result,recorded_limit,limit_comparison
+13612,2,114,0,,114.0,Australia Won by 20 runs (D/L method),114.0,Exactly reached recorded limit
+15546,1,78,1,84.0,,No Result,84.0,Ended before recorded limit
+16753,1,66,0,66.0,,Afghanistan Won by 27 Runs,66.0,Exactly reached recorded limit
+16754,2,40,0,,42.0,Ireland Won by 7 Wickets(D/L Method),42.0,Ended before recorded limit
+17395,1,48,0,48.0,48.0,India Won by 6 Wickets,48.0,Exactly reached recorded limit
+17395,2,44,0,48.0,48.0,India Won by 6 Wickets,48.0,Ended before recorded limit
+17765,1,72,0,72.0,72.0,No Result,72.0,Exactly reached recorded limit
+17765,2,23,0,72.0,72.0,No Result,72.0,Ended before recorded limit
+19959,1,66,0,66.0,,West Indies won by 3 wickets,66.0,Exactly reached recorded limit
+21070,2,48,0,,48.0,Bangladesh Won by 22 Runs (DLS method),48.0,Exactly reached recorded limit
+21071,1,102,0,102.0,102.0,Bangladesh Won by 77 Runs,102.0,Exactly reached recorded limit
+21071,2,102,0,102.0,102.0,Bangladesh Won by 77 Runs,102.0,Exactly reached recorded limit
+21586,2,90,0,,90.0,Chennai Super Kings Won by 5 wickets  (DLS method),90.0,Exactly reached recorded limit
+28046,2,83,0,,90.0,South Africa won by 5 wickets (DLS),90.0,Ended before recorded limit
+29984,2,60,0,,60.0,Australia Won by 27 Runs (DLS method),60.0,Exactly reached recorded limit
+34428,2,39,0,,48.0,India Won by 7 wickets(D/L Method),48.0,Ended before recorded limit
+36098,1,78,0,78.0,78.0,West Indies Won by 8 wickets (DLS),78.0,Exactly reached recorded limit
+36098,2,56,0,78.0,78.0,West Indies Won by 8 wickets (DLS),78.0,Ended before recorded limit
+36208,1,47,0,54.0,30.0,South Africa Won by 14 runs(DLS method),54.0,Ended before recorded limit
+36208,2,30,0,54.0,30.0,South Africa Won by 14 runs(DLS method),30.0,Exactly reached recorded limit
+37354,1,42,0,42.0,42.0,Australia Won by 29 runs,42.0,Exactly reached recorded limit
+37354,2,42,0,42.0,42.0,Australia Won by 29 runs,42.0,Exactly reached recorded limit
+39809,1,90,0,90.0,90.0,New Zealand Won by 5 wickets,90.0,Exactly reached recorded limit
+39809,2,79,1,90.0,90.0,New Zealand Won by 5 wickets,90.0,Ended before recorded limit
+39983,1,54,0,54.0,,No Result,54.0,Exactly reached recorded limit
+39985,1,108,1,108.0,,No Result,108.0,Exactly reached recorded limit
+40727,1,84,0,84.0,84.0,Punjab Kings Won by 5 wickets,84.0,Exactly reached recorded limit
+40727,2,73,0,84.0,84.0,Punjab Kings Won by 5 wickets,84.0,Ended before recorded limit
+40749,2,114,0,,114.0,Gujarat Titans Won by 3 wickets (DLS Method),114.0,Exactly reached recorded limit
+41851,1,60,0,60.0,60.0,West Indies Won by 6 runs(DLS Method),60.0,Exactly reached recorded limit
+41851,2,60,0,60.0,60.0,West Indies Won by 6 runs(DLS Method),60.0,Exactly reached recorded limit
+48610,1,98,0,102.0,90.0,England Won by 11 runs (DLS method),102.0,Ended before recorded limit
+48610,2,90,0,102.0,90.0,England Won by 11 runs (DLS method),90.0,Exactly reached recorded limit
+50137,1,66,0,66.0,66.0,Rajasthan Royals Won by 27 runs,66.0,Exactly reached recorded limit
+50137,2,66,0,66.0,66.0,Rajasthan Royals Won by 27 runs,66.0,Exactly reached recorded limit
+50190,1,86,0,90.0,90.0,New Zealand Won by 6 wickets (DLS Method),90.0,Ended before recorded limit
+50190,2,70,0,90.0,90.0,New Zealand Won by 6 wickets (DLS Method),90.0,Ended before recorded limit
+50371,1,114,0,114.0,114.0,Lucknow Super Giants Won by 9 runs (DLS method),114.0,Exactly reached recorded limit
+50371,2,114,0,114.0,114.0,Lucknow Super Giants Won by 9 runs (DLS method),114.0,Exactly reached recorded limit
+50408,1,46,0,54.0,54.0,No Result,54.0,Ended before recorded limit
+54711,1,30,0,30.0,30.0,India Won by 2 runs,30.0,Exactly reached recorded limit
+54711,2,30,0,30.0,30.0,India Won by 2 runs,30.0,Exactly reached recorded limit

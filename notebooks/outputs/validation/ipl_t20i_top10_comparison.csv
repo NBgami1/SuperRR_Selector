@@ -1,0 +1,7 @@
+Role,Comparison,Overlap,Overlap_Percentage
+Batter,Combined vs IPL,7,70.0
+Batter,Combined vs T20I,4,40.0
+Batter,Common to IPL and T20I,3,30.0
+Bowler,Combined vs IPL,4,40.0
+Bowler,Combined vs T20I,6,60.0
+Bowler,Common to IPL and T20I,2,20.0

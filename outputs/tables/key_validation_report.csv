@@ -1,0 +1,7 @@
+Dataset,Candidate_Key,Missing_Key_Rows,Duplicate_Key_Rows
+Matches,match_id,0,0
+Competitions,comp_id,0,0
+Teams,"comp_id, team_id",0,0
+Ball By Ball,"match_id, innings, innings_ball_num",0,0
+Playing XI,"match_id, team_id, player_id",0,40
+Player Mapping,"comp_id, team_id, player_id",0,0
