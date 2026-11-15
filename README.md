@@ -253,3 +253,21 @@ datasets to a public repository without permission.
 ---
 
 **SupeRR Selector Season 2 — Cricket Analytics Project**
+## Final Candidate-Restricted Leaderboards
+
+The final leaderboards rank players from the 20 candidates provided for the SupeRR Selector Season 2 challenge.
+
+### Final outputs
+- `top_10_batters.csv` — Top 10 batters under pressure.
+- `top_10_bowlers.csv` — Top 10 bowlers under pressure.
+- `combined_top_10_leaderboards.csv` — Combined list of both leaderboards.
+
+### Methodology and interpretation
+- Rankings are based on the project's pressure-performance scoring model.
+- Candidate selection is restricted to the 20 names supplied for the competition.
+- The bowling model uses a minimum sample threshold of 24 high-pressure legal balls for reliable interpretation.
+- Candidates below this threshold may still appear in the required Top 10, but their rankings should be interpreted cautiously.
+- The exported bowler leaderboard includes a confidence label to make sample limitations visible.
+
+### Important limitation
+A high ranking based on a small number of high-pressure deliveries should not be interpreted as conclusive evidence of consistent performance. Sample size and match coverage must be considered when interpreting the results.
