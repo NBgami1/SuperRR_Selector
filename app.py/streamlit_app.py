@@ -3,6 +3,41 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 
+def display_table(df, use_container_width=True, hide_index=True):
+    """Display a pandas DataFrame without requiring PyArrow."""
+
+    html = df.to_html(
+        index=not hide_index,
+        escape=True,
+        border=0,
+        classes="custom-table"
+    )
+
+    st.markdown(
+        """
+        <style>
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .custom-table th,
+        .custom-table td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .custom-table th {
+            font-weight: bold;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(html, unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="SupeRR Selector Season 2",
     page_icon="🏏",
@@ -225,7 +260,7 @@ def get_bowler_matches(row):
 
 def render_batter_leaderboard(data):
 
-    st.dataframe(
+    display_table(
         pd.DataFrame({
             "Rank": data.apply(get_rank, axis=1),
             "Player": data.apply(get_player_name, axis=1),
@@ -244,7 +279,7 @@ def render_batter_leaderboard(data):
 
 def render_bowler_leaderboard(data):
 
-    st.dataframe(
+    display_table(
         pd.DataFrame({
             "Rank": data.apply(get_rank, axis=1),
             "Player": data.apply(get_player_name, axis=1),
@@ -261,7 +296,7 @@ def render_bowler_leaderboard(data):
             "Final Score": data.apply(get_final_score, axis=1)
         }),
         use_container_width=True,
-        hide_index=True
+        
     )
 
 
